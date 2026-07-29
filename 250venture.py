@@ -263,7 +263,7 @@ st.sidebar.markdown(f"""
 st.sidebar.markdown("## 💼 Financial Analysis Hub")
 st.sidebar.caption("250Startups Incubator Ltd · FY2026 Budget")
 
-DEFAULT_PATH = r"C:\Users\lenovo\OneDrive\Documents\Fablab\Submit\2\250Startups_Incubator_Ltd_BUDGET-2026_Analysis.xlsx"
+DEFAULT_PATH = r""250Startups_Incubator_Ltd_BUDGET-2026_Analysis.xlsx""
 
 uploaded = st.sidebar.file_uploader("Upload budget workbook (.xlsx)", type=["xlsx"])
 st.sidebar.caption(f"Default file: {DEFAULT_PATH.split(chr(92))[-1]}")
